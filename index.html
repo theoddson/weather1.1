@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+    <script src="jquery-2.1.1.min.js"> </script>
+    <script src="script.js"> </script>
+
+  </head>
+  <body>
+    <div id="zip-screen" class="wrapper">
+
+      <h1 id="logo">weather</h1>
+      <p class="tagline">What does today feel like?</p>
+      <input class="zip-field" placeholder="Enter Zip Code" type="text">
+      <div class="enter-button">Enter</div>
+      <div class="error">Please Enter a Valid Zip Code</div>
+    </div><!--END zip screen-->
+
+
+
+    <div class="weather-screen">
+      <div class="oops"></div>
+      <header>
+        <a id="back" href="index.html"><</a>
+        <p class="location"></p>
+        <p class="date"></p>
+      </header>
+      <div id="main-today">
+        <div class="icon"></div>
+        <p class="temp_f"></p>
+        <p class="weather"></p>
+      </div><!--END main-today-->
+      <div id="five-day"></div>
+    </div><!--END weather screen-->
+
+  </body>
+</html>
